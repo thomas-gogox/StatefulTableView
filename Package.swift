@@ -10,8 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "StatefulTableView",
-            path: "Sources/StatefulTableView",
-            swiftSettings: [.unsafeFlags(["-suppress-warnings"])]
+            path: "Sources/StatefulTableView"
         )
     ]
 )
